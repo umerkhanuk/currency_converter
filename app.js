@@ -29,4 +29,4 @@ let Amountfrom = currency[answer.from];
 let Amountto = currency[answer.to];
 let baseAmount = answer.amount / Amountfrom;
 let convertedAmount = baseAmount * Amountto;
-console.log(`${currency[answer.to]} ${convertedAmount}`);
+console.log(`${convertedAmount}`);
